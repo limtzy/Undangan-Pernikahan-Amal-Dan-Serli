@@ -377,7 +377,7 @@
          height: 100%;
       }
       .Akad h2 {
-        font-size: 24px;
+        font-size: 18px;
       }
 
       .Akad p {
@@ -427,7 +427,7 @@
 
     @media screen and (max-width: 480px){
       .Akad h2 {
-        font-size: 22px;
+        font-size: 18px;
       }
 
       .Akad p {
