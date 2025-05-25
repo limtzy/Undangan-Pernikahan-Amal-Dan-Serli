@@ -1,0 +1,442 @@
+
+  * {
+    box-sizing: border-box;
+  }
+
+   html,body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #e7e2db;
+      color: #333;
+      max-height: 100vh;
+      height: auto;
+    }
+  .container {
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: none;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .kotak-gambar {
+    background: url(https://acaranya.id/storage/2024/08/d631f182af4a7a2d2805418ca59487e2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    width: 40%;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+  }
+
+   .landing {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url(https://acaranya.id/storage/2024/08/d631f182af4a7a2d2805418ca59487e2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      z-index: 2;
+    }
+
+    .landing h1 {
+      font-family:  'great vibes';
+      color: #000000;
+    }
+
+    .landing button {
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 16px;
+      background-color: #9f4d27;
+      color: white;
+      cursor: pointer;
+      margin-top: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .landing button:hover {
+        background-color: white; /* warna saat hover */
+        color: #a0522d;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        transform: translateY(-2px);
+      }
+
+      .landing button:active {
+        transform: scale(0.97);
+      }
+
+  .kotak-gambar img {
+    width: 35%;
+    height: 50%;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 0;
+  }
+   .title {
+      font-family:  'great vibes';
+      letter-spacing: 2px;
+      font-size: 35px;
+      color: #3d3d3d;
+      text-align: center;
+      width: 100%;
+      margin: auto; 
+      animation: fadeIn 3s ease-out forwards;
+    }
+
+    
+
+    .wrap {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 20px;
+      transform: scale(0.8);
+      animation: zoomIn 3s ease-out forwards;
+    }
+     .foto{
+      width: 10%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    
+     h1 {
+      text-align: center;
+      font-family: 'great vibes';
+      line-height: 1;
+      font-size: 42px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      transform: scale(0.8);
+      animation: zoomIn 3s ease-out forwards;
+    }
+
+    .date {
+      background: #8c624c;
+      color: white;
+      display: inline-block;
+      padding: 8px 20px;
+      border-radius: 8px;
+      margin: 0;
+      font-weight: bold;
+      opacity: 0;
+      transform: translateX(-100px);
+      animation: slideFromLeft 1s ease-out forwards;
+    }
+
+   
+
+   .thanks {
+      font-size: 16px;
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      overflow: hidden;
+      white-space: normal;
+      width: 90%;
+      animation: typing 3s steps(30, end) forwards;
+    }
+
+    .ayat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 1.5;
+      text-align: center;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+     .wrap {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      transform: scale(0.8);
+      animation: zoomIn 3s ease-out forwards;
+    }
+
+    .arab {
+      line-height: 2.7;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .Wedding-pic {
+      width: 150px;
+      height: 200px;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .wayangan p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+    }
+
+    .kamajaya {
+      width: 25%;
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+      transform: scaleX(-1);
+    }
+
+    .kamaratih {
+      width:25%;
+      float: right;
+    }
+
+     .Akad {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-family: sans-serif;
+      line-height: 0.5;
+      width: 100%;
+    }
+
+    .Akad p {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px
+    }
+
+    .Akad h2 {
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+      line-height: 0.7;
+    }
+
+    .Akad iframe {
+      border: none;
+      height: 200px;
+      width: 300px;
+    }
+
+     .gallery {
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      gap: 5px;
+      margin-top: 10px;
+    }
+
+     .gallery img {
+      width: 32%;
+      align-items: center;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .doa {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 19px;
+      margin-bottom: 30px;
+    }
+    .doa img {
+      width: 50%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .penutup {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      text-align: center;
+      line-height: 2;
+    }
+
+    .nama-keluarga {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      line-height: 1.2;
+      font-size: 20px;
+    }
+    .btn-getstarted {
+      background-color: #a0522d; /* warna coklat elegan */
+      color: #ffffff;
+      border: none;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+}
+
+      .btn-getstarted:hover {
+        background-color: white; /* warna saat hover */
+        color: #a0522d;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        transform: translateY(-2px);
+      }
+
+      .btn-getstarted:active {
+        transform: scale(0.97);
+      }
+
+      .countdown {
+        text-align: center;
+        font-family: 'Segoe UI', sans-serif;
+        margin-top: 30px;
+        color: #5a3e2b;
+      }
+
+      #timer {
+        width: 80%;
+        height: auto;
+        font-size: 24px;
+        font-weight: bold;
+        background: #f3ede6;
+        display: inline-block;
+        padding: 16px 24px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+
+
+
+
+     @keyframes typing {
+      to {
+        width:100%;
+      }
+    }
+
+      @keyframes slideFromLeft {
+       to {
+        opacity: 1;
+        transform: translateX(0);
+        }
+      }
+
+      @keyframes fadeIn {
+      to {
+        opacity: 1;
+        }
+      }
+
+
+    @media screen and (max-width: 768px){
+      .kotak-gambar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+
+
+      .landing {
+        width: 100%;
+         height: 100%;
+      }
+      .Akad h2 {
+        font-size: 32px;
+      }
+
+      .Akad p {
+        font-size: 32px;
+      }
+       .Wayangan h1 {
+        font-size: 35px;
+       }
+
+       .doa {
+        font-size: 28px;
+       }
+    }
+
+
+    @media screen and (max-width: 600px) {
+      
+      .kotak-gambar{
+        width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+
+      .Wedding-pic {
+        width: 100px;
+        height: 250px;
+      }
+
+      .Akad h2 {
+        font-size: 22px;
+      }
+
+      .Akad p {
+        font-size: 18px;
+      }
+
+      .Akad iframe {
+      border: none;
+      height: 200px;
+      width: 300px;
+    }
+
+       .doa {
+        font-size: 24px;
+       }
+    }
+
+    @media screen and (max-width: 480px){
+      .Akad h2 {
+        font-size: 22px;
+      }
+
+      .Akad p {
+        font-size: 18px;
+      }
+       .doa {
+        font-size: 18px;
+       }
+
+    }
+
+    
